@@ -1,0 +1,30 @@
+# Core Python version compatibility
+python-dotenv==1.0.1
+
+# OCR libraries
+easyocr==1.7.1
+pytesseract==0.3.10
+opencv-python==4.10.0.84
+Pillow==10.3.0
+
+# PDF/Image handling
+pdf2image==1.17.0
+PyMuPDF==1.24.1
+
+# NLP & Transformers
+transformers==4.42.3
+torch==2.3.1
+sentencepiece==0.2.0
+accelerate==0.30.1
+
+# Data handling
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization & debugging
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Utils
+tqdm==4.66.4
+requests==2.32.3

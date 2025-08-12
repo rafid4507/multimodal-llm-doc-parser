@@ -19,3 +19,27 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+---
+
+**`requirements.txt`**
+```txt
+# OCR
+easyocr==1.7.1
+pytesseract==0.3.10
+opencv-python==4.10.0.84
+
+# Image processing
+Pillow==10.3.0
+numpy==1.26.4
+
+# LLM and multimodal
+transformers==4.43.3
+torch==2.3.0
+torchvision==0.18.0
+
+# Utils
+matplotlib==3.9.0
+tqdm==4.66.4
+
