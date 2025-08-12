@@ -16,22 +16,22 @@ The goal is to process **image-based documents** (PNG), extract relevant text an
 
 ## Folder Structure
 
-multimodal-llm-doc-parser/ <br>
-│<br>
-├── data/                   # Sample input PNG files<br>
-├── src/                    # Python source code<br>
-│   ├── __init__.py
-│   ├── ocr_easyocr.py               # OCR functions<br>
-│   ├── llm_integration.py   # Hugging Face LLM calls<br>
-│   ├── utils.py<br>
-│   ├── preprocessing.py             # Helper functions<br>
-│<br>
-├── notebooks/<br>
-│   └── image_parser.ipynb     # Colab-ready notebook<br>
-│<br>
-├── requirements.txt<br>
-├── README.md<br>
-└── .gitignore<br>
+multimodal-llm-doc-parser 
+
+- data                 
+- src                  
+    - __init__.py
+    - ocr_easyocr.py               
+    - llm_integration.py   
+    - utils.py<br>
+    - preprocessing.py             
+
+- notebooks
+    - image_parser.ipynb  
+
+- requirements.txt
+- README.md
+- .gitignore
 
 
 
